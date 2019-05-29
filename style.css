@@ -1,0 +1,213 @@
+/* regulate size to mobile phone
+picture background
+flex-box for nav, header and options (2x2)
+maybe a few animation effects */
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:whitesmoke;
+    min-width: 360x;
+    }
+
+body {
+    margin: 0px;
+    padding: 0px;
+   
+  }
+
+
+
+.name {
+    text-align: center;
+    background: #3F3F3F ;
+    height: 90px;
+    margin:0;
+    padding: 5px;
+    background-image: url(images/background.jpg);
+}
+
+.navbar {
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    min-height: : 50px;
+}
+
+nav {
+    min-height: 50px;
+}
+
+h4 {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    list-style-type: none;
+    color: #D8D8D6;
+    font-size: 120%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: 0px
+}
+
+h1 {
+    font-size: 220%;  
+}
+
+p {
+    margin: 0px;
+    /* padding-top: 20px; */
+}
+
+h2 {
+    margin: 0px;
+    padding: 10px;
+    min-height: 250px;
+    /* padding-top: 150px;
+    padding-bottom: 350px; */
+}
+
+h2, h3, p {
+    margin: 0px;
+}
+
+h3 {
+    padding: 20px;
+    font-size: 250%;
+}
+main {
+    background: #3F3F3F;
+    border: 0;
+}
+
+.score, .progress {
+    padding-left: 5px;
+    padding-right: 5px;    
+}
+.quizStart, .feedback, .finalFeedback {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url(images/background.jpg);
+}
+
+.feedback {
+    min-height: 450px;
+}
+
+.finalFeedback {
+    min-height: 429px;
+}
+
+.feedback > p, .finalFeedback > p {
+    font-size: 150%;
+    padding: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.startButton, .nextButton, .restartButton {
+    background: black;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 200%;
+    width: 300px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 97px;
+
+}
+
+.options {
+    /* background-image: url(images/1.jpg); */
+    background-size: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.qnaForm {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    border: 0px;
+}
+
+
+form {
+    background-image: url(images/background.jpg);
+    padding-bottom: 20px;
+}
+
+
+.question {
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    min-width: 360px;
+    text-align: center;
+    border-radius: 6px;
+    background: #3F3F3F;
+    font-size: 150%; 
+    background: transparent;
+    padding: 15px;
+    font-weight: bolder; 
+}
+
+
+.optionA, .optionB, .optionC, .optionD {
+    display: block;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+    min-width: 360px;
+    max-width: 360px;
+    text-align: center;
+    border: #3F3F3F 2px solid;
+    border-radius: 6px;
+    margin-top: 0px;
+    font-size: 150%; 
+    text-shadow: 2px 2px 1px black;      
+}
+
+/* .feedback {
+    display: block;
+    min-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 75px;
+    font-size: 120%;
+    background-image: url(images/background.jpg);
+} */
+
+.feedback > p {
+    padding-bottom: 75px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    border-top: solid 3px #EDEDED;
+}
+
+footer > p {
+    display: flex;
+    background-image: url(images/background.jpg);
+    border: 0px;
+    height: 50px;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-grow: 1;      
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    padding: 10px;
+}
