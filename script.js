@@ -45,7 +45,7 @@ const questionStore = [
 
 {
     questionId: 5,
-    questionText: 'What track was used as a second generation sample by Rufuge Cru use on 1996&rsquo;s Dark Metal?',
+    questionText: 'What track was used as a second generation sample by Rufuge Cru on 1996&rsquo;s Dark Metal?',
     ans1: 'Make Way for a Panther by Paris',
     ans2: 'Fool&rsquo;s Gold by the Stone Roses',
     ans3: 'The Flow by Model 500',
